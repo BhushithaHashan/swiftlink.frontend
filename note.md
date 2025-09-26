@@ -94,6 +94,7 @@ but in list addresses are mutable so we can change the initial value wihtout wor
 allow duplicates;
 list type can store any type of data;
 
+why negetive indexing ->its to access last value without finding the leangth of an big array;
 
 
 
