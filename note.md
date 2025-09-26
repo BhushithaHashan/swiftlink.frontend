@@ -65,3 +65,10 @@ Imagine you have a new car.
     A security fix is when the manufacturer updates the car's software because someone found a way to unlock the doors remotely using a simple code. This is a vulnerability that could be exploited by a thief. The car is functioning as designed, but that design has a flaw that can be exploited for malicious purposes.
 
 A bug fix makes something that's broken work as it should. A security fix closes a vulnerability that could be used to harm you or your system.
+
+---------------------------------------------------------------------------------------------------------------
+### rules for python variables
+
+-cant starts with number
+-"_" is ok 
+-english letter is ok
