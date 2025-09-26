@@ -73,3 +73,19 @@ A bug fix makes something that's broken work as it should. A security fix closes
 -"_" is ok 
 -english letter is ok
 -camel case is not a good practice in python
+-its a good practice to use capital letters to mark down constants]
+
+### python data types
+
+1.numeric data types-(int(signed non limited length),float(accurate up to 15 decimal places),complex numbers);
+2.python collections->instead of arrays python consist of list,tuple,set,dictionary as collections;
+
+
+## list
+
+
+these are ordered multiple items stored in a sequence;
+new items are stored in last in order;
+
+
+
