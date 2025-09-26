@@ -72,3 +72,4 @@ A bug fix makes something that's broken work as it should. A security fix closes
 -cant starts with number
 -"_" is ok 
 -english letter is ok
+-camel case is not a good practice in python
