@@ -86,6 +86,14 @@ A bug fix makes something that's broken work as it should. A security fix closes
 
 these are ordered multiple items stored in a sequence;
 new items are stored in last in order;
+arrays are changeble;
+
+memory address are immutable in int and float etc.
+but in list addresses are mutable so we can change the initial value wihtout worrying about the address change;
+
+allow duplicates;
+list type can store any type of data;
+
 
 
 
