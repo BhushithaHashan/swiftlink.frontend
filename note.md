@@ -56,3 +56,12 @@ db.execute(query)
 
 
   -----------------------------------------------------------------------------------------------------------
+to explain it, without any code.
+
+Imagine you have a new car.
+
+    A bug fix is when the car manufacturer updates the car's software because the radio button for changing the channel is broken and doesn't work. It's an issue with how the car is supposed to function. The car won't be harmed, it just won't work correctly.
+
+    A security fix is when the manufacturer updates the car's software because someone found a way to unlock the doors remotely using a simple code. This is a vulnerability that could be exploited by a thief. The car is functioning as designed, but that design has a flaw that can be exploited for malicious purposes.
+
+A bug fix makes something that's broken work as it should. A security fix closes a vulnerability that could be used to harm you or your system.
