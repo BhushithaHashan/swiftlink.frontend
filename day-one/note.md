@@ -107,8 +107,93 @@ A bug fix makes something that's broken work as it should. A security fix closes
 
 ### python data types
 
-1.numeric data types-(int(signed non limited length),float(accurate up to 15 decimal places),complex numbers);
-2.python collections->instead of arrays python consist of list,tuple,set,dictionary as collections;
+
+---
+
+
+In Python, everything is an **object**, and every object has a **type**.
+Data types can be grouped into **categories**:
+
+---
+
+## 1. **Basic / Primitive Data Types**
+
+* **`int`** → integers (whole numbers) → `10`, `-5`, `0`
+* **`float`** → floating-point numbers (decimal) → `3.14`, `-0.5`
+* **`complex`** → complex numbers → `3 + 5j`
+* **`bool`** → boolean values → `True`, `False`
+* **`str`** → text (sequence of Unicode characters) → `"hello"`
+
+---
+
+## 2. **Sequence Types**
+
+(Ordered collections, can be indexed)
+
+* **`list`** → mutable ordered collection → `[1, 2, 3]`
+* **`tuple`** → immutable ordered collection → `(1, 2, 3)`
+* **`range`** → sequence of numbers (often used in loops) → `range(0, 10)`
+
+---
+
+## 3. **Text Sequence Type**
+
+* **`str`** (already mentioned above) → `"Python"`
+
+---
+
+## 4. **Set Types**
+
+(Unordered, unique elements)
+
+* **`set`** → `{1, 2, 3}`
+* **`frozenset`** → immutable set → `frozenset([1, 2, 3])`
+
+---
+
+## 5. **Mapping Type**
+
+* **`dict`** → key-value pairs → `{"name": "Alice", "age": 25}`
+
+---
+
+## 6. **Binary Types**
+
+* **`bytes`** → immutable sequence of bytes → `b"hello"`
+* **`bytearray`** → mutable sequence of bytes
+* **`memoryview`** → memory view object
+
+---
+
+## 7. **None Type**
+
+* **`NoneType`** → special type with only one value: `None`
+
+---
+
+## 8. **User-defined / Advanced Types**
+
+* Classes (`class MyClass: ...`)
+* Functions
+* Modules, etc.
+
+---
+
+📌 Now, about **“continuous and …”**
+If by “continuous” you meant **numeric types**:
+
+* `int` → discrete (counts, whole numbers)
+* `float` → continuous (real numbers, decimals)
+* `complex` → real + imaginary
+
+So we can divide **numeric data types** into:
+
+* **Discrete** → integers (`int`)
+* **Continuous** → floats (`float`), complex (`complex`)
+
+---
+
+
 
 
 ## list
