@@ -69,11 +69,33 @@ A bug fix makes something that's broken work as it should. A security fix closes
 ---------------------------------------------------------------------------------------------------------------
 ### rules for python variables
 
--cant starts with number
--"_" is ok 
--english letter is ok
--camel case is not a good practice in python
--its a good practice to use capital letters to mark down constants]
+### Valid and Invalid Variable Names
+
+| Category | Description | Examples |
+| :--- | :--- | :--- |
+| **Valid** | Must begin with a **letter** (a-z, A-Z) or an **underscore** ($\_$). Can contain letters, numbers (0-9), and underscores. | `age`, `user_name`, `_private_var`, `val1` |
+| **Invalid** | Cannot begin with a **number**. Cannot contain **spaces** or **special characters** (e.g., `!`, `@`, `#`, `%`, `-`, `&`). Cannot be one of Python's **reserved keywords** (e.g., `for`, `if`, `while`, `class`, `def`). | `1value` (starts with a number), `user-name` (contains `-`), `my var` (contains a space), `if` (reserved keyword) |
+
+***
+
+### Good Practice Variable Naming (Valid and Recommended)
+
+| Convention | Description | Examples |
+| :--- | :--- | :--- |
+| **Snake Case** (Most Common) | Words are in **lowercase** and separated by **underscores** ($\_$). Used for variables, function names, and module names. | `first_name`, `total_count`, `calculate_sum` |
+| **Screaming Snake Case** | Words are in **UPPERCASE** and separated by **underscores** ($\_$). Used for **constants** (variables whose values shouldn't change). | `MAX_SIZE`, `PI`, `DATABASE_HOST` |
+| **Single Leading Underscore** | A name prefixed with a **single underscore** ($\_$) suggests the variable is intended for internal use within a module or class (a convention, not strictly enforced by the interpreter). | `_internal_function`, `_temp_var` |
+
+***
+
+### Bad Practice Variable Naming (Valid but Not Recommended)
+
+| Category | Description | Examples |
+| :--- | :--- | :--- |
+| **Valid, Bad Practice** | Names that are technically valid but violate the **PEP 8 style guide** (Python's official style guide) or make the code less readable. | `camelCase` (e.g., `firstName`) |
+| **Valid, Bad Practice** | **Single-letter names** (except for simple loop counters like `i`, `j`, `k` or coordinates like `x`, `y`, `z`) or **vague names** that don't describe the content. | `v`, `data`, `tmp`, `a1` |
+| **Valid, Bad Practice** | Names that **shadow built-in functions** or types (e.g., naming a variable `list` or `str`). This makes the original built-in inaccessible. | `list = [1, 2, 3]`, `sum = 10` |
+| **Valid, Bad Practice** | Names with **leading/trailing double underscores** (`__name__`) unless implementing a special class method (often called "dunders" or "magic methods"). | `__my_variable__` |
 
 ### python data types
 
